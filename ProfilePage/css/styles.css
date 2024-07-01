@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    background-color: #222;
+}
+
+.social-media-title {
+    margin: 1em;
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40em;
+    margin: 1em;
+    padding: 2em;
+}
+
+.profile-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+
+.profile-container h1 {
+    margin-bottom: 15px;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+
+    color: #fff;
+}
+
+.profile-container p {
+    width: 30em;
+    margin-bottom: 15px;
+    word-break: normal;
+    text-align: center;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #fff;
+}
+
+.profile-container .modal-btn {
+    width: 150px;
+    height: 30px;
+
+    background-color: #dbdbdb;
+    border-radius: 5px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-container .modal-btn:hover{
+    background-color: rgb(73, 216, 216);
+    color: #fff;
+    font-weight: 500;
+}
+
+.post-container {
+    width: 50vw;
+    height: auto;
+    padding: 0.5em;
+
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.header-post {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.header-post img {
+    width: 30px;
+    border-radius: 100px;
+    margin: 5px;
+    margin-right: 15px;
+
+}
+
+.header-post p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+    background-color: #f8f9fa;
+    color: #222;
+}
+
+.post-container .img-post {
+    width: 100%;
+}
+
+.post-container .text-post {
+    margin-bottom: 15px;
+    word-break: normal;
+    text-align: left;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.container .generic-btn {
+    padding: 5px;
+    margin: 5px;
+
+    background-color: #dbdbdb;
+    border-radius: 5px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal .content {
+    display: inline-block;
+    margin: 4em;
+    width: 50%;
+
+    background-color: gray;
+    color: white;
+}
+
+.modal .content h1 {
+    padding: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.form {
+    padding: 1em;
+}
+
+.form input {
+    width: 75%;
+    padding: 0.5em;
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    background-color: #dbdbdb;
+    color: #222;
+}
+
+.form textarea {
+    width: 75%;
+    padding: 0.5em;
+    margin-bottom: 10px;
+
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+
+    background-color: #dbdbdb;
+    color:#222;
+}
+
+.form button {
+    width: 150px;
+    height: 30px;
+
+    background-color: #dbdbdb;
+    border-radius: 5px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: rgb(73, 216, 216);
+    color: #fff;
+    font-weight: 500;
+}
